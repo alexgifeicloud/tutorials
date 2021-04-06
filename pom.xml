@@ -7,6 +7,7 @@
     <groupId>com.baeldung</groupId>
     <artifactId>parent-modules</artifactId>
     <version>1.0.0-SNAPSHOT</version>
+
     <name>parent-modules</name>
     <packaging>pom</packaging>
 
@@ -393,6 +394,7 @@
                 <module>dagger</module>
                 <module>data-structures</module>
                 <module>ddd</module>
+                <module>hexagonal-quick-start</module>
                 <!-- <module>ddd-modules</module>--> <!-- we haven't upgraded to Java 9 -->
                 <module>deeplearning4j</module>
                 <module>discord4j</module>
