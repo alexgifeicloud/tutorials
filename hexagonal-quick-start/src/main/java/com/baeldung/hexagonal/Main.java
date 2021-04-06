@@ -1,2 +1,7 @@
-package com.baeldung.hexagonal;public class Main {
+package com.baeldung.hexagonal;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("It works.");
+    }
 }
