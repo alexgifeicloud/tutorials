@@ -13,10 +13,8 @@ import java.math.BigInteger;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;
-import java.util.stream.Collectors;
 
 import static java.math.BigInteger.valueOf;
-import static java.util.stream.Collectors.mapping;
 import static java.util.stream.Collectors.toList;
 import static org.assertj.core.api.Java6Assertions.assertThat;
 import static org.mockito.ArgumentMatchers.any;
