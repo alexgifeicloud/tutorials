@@ -1,4 +1,4 @@
-package com.baeldung.hexagonal.domain;
+package com.baeldung.hexagonal.application.domain;
 
 import java.math.BigInteger;
 import java.time.LocalDateTime;
@@ -34,7 +34,7 @@ public class Account {
         return true;
     }
 
-    public UUID accountId() {
+    public UUID id() {
         return id;
     }
 

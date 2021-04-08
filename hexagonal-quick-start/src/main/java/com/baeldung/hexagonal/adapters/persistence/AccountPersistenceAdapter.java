@@ -4,9 +4,9 @@ import com.baeldung.hexagonal.adapters.persistence.model.AccountEntity;
 import com.baeldung.hexagonal.adapters.persistence.model.TransactionEntity;
 import com.baeldung.hexagonal.adapters.persistence.repository.AccountRepository;
 import com.baeldung.hexagonal.adapters.persistence.repository.TransactionRepository;
-import com.baeldung.hexagonal.domain.Account;
-import com.baeldung.hexagonal.domain.Transaction;
-import com.baeldung.hexagonal.domain.TransactionLog;
+import com.baeldung.hexagonal.application.domain.Account;
+import com.baeldung.hexagonal.application.domain.Transaction;
+import com.baeldung.hexagonal.application.domain.TransactionLog;
 import com.baeldung.hexagonal.ports.LoadAccountPort;
 import com.baeldung.hexagonal.ports.UpdateAccountStatePort;
 

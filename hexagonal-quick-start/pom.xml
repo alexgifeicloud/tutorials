@@ -21,10 +21,32 @@
             <version>${org.assertj.core.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>${mockito.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-junit-jupiter</artifactId>
+            <version>2.23.0</version>
+        </dependency>
+
+<!--        testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.0.1'-->
+<!--        testImplementation 'org.mockito:mockito-junit-jupiter:2.23.0'-->
+<!--        testImplementation 'com.tngtech.archunit:archunit:0.16.0'-->
+<!--        testImplementation 'org.junit.platform:junit-platform-launcher:1.4.2'-->
     </dependencies>
 
     <properties>
         <org.assertj.core.version>3.9.0</org.assertj.core.version>
+        <mockito.version>3.3.0</mockito.version>
     </properties>
 
 </project>

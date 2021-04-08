@@ -1,6 +1,7 @@
-package com.baeldung.hexagonal.domain;
+package com.baeldung.hexagonal.application.domain;
 
 import java.math.BigInteger;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;
 import java.util.stream.Collectors;

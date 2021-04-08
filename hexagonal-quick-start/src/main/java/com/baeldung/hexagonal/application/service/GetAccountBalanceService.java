@@ -1,4 +1,4 @@
-package com.baeldung.hexagonal.application;
+package com.baeldung.hexagonal.application.service;
 
 import com.baeldung.hexagonal.ports.GetAccountBalancePort;
 import com.baeldung.hexagonal.ports.LoadAccountPort;

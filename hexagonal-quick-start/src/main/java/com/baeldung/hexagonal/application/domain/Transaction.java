@@ -1,4 +1,4 @@
-package com.baeldung.hexagonal.domain;
+package com.baeldung.hexagonal.application.domain;
 
 import java.math.BigInteger;
 import java.time.LocalDateTime;

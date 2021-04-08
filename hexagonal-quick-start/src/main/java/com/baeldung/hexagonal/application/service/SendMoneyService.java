@@ -1,6 +1,6 @@
-package com.baeldung.hexagonal.application;
+package com.baeldung.hexagonal.application.service;
 
-import com.baeldung.hexagonal.domain.Account;
+import com.baeldung.hexagonal.application.domain.Account;
 import com.baeldung.hexagonal.ports.UpdateAccountStatePort;
 import com.baeldung.hexagonal.ports.commands.SendMoneyCommand;
 import com.baeldung.hexagonal.ports.SendMoneyPort;
@@ -27,8 +27,8 @@ public class SendMoneyService implements SendMoneyPort {
         Account destinationAccount = loadAccountPort.loadAccount(sendMoneyCommand.destinationAccountId(), startingDate);
 
         BigInteger amount = sendMoneyCommand.amount();
-        sourceAccount.withdraw(amount, destinationAccount.accountId());
-        destinationAccount.deposit(amount, sourceAccount.accountId());
+        sourceAccount.withdraw(amount, destinationAccount.id());
+        destinationAccount.deposit(amount, sourceAccount.id());
 
         updateAccountStatePort.updateTransactions(sourceAccount);
         updateAccountStatePort.updateTransactions(destinationAccount);
